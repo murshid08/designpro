@@ -1,0 +1,35 @@
+doctype html
+ html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Employee 
+  body .jumbotron
+  .container
+    h1 Employee Details 
+.container
+  .row
+    .col-xs-12.col-sm-12.col-md-12.col-lg-12
+      form(action='/' method='post' role='form' enctype='application/x-www-form-urlencoded')
+        legend Enter Registration Information Here
+        .form-group
+          label(for='emp-id') Emp-ID
+          input#emp-id.form-control(type='text' name='emp-id' placeholder='101')
+          br
+        .form-group
+          label(for='name') Name
+          input#name.form-control(type='text' name='name' placeholder='murshid')
+          br
+          br
+        .form-group
+          label(for='dept') Emp-Dept
+          input#email.form-control(type='text' name='dept' placeholder='design')
+          br
+          br
+    
+      button.btn.btn-primary(type='submit') Submit
+      br
+    .row
+      h1 attendance report
+

@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>SKULL</p>
+<img src="skull.jpeg">
+</body>
+</html>

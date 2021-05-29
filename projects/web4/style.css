@@ -1,0 +1,27 @@
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+ul{
+    list-style-type:none;
+    float:initial;
+}
+div.gallery{
+    border: 1px solid #ccc;
+
+
+}
+div.gallery:hover{
+    border: 1px solid #777;
+}
+div.gallery img{
+    
+    width: 500px;
+    height: 400px;
+    height: auto;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
